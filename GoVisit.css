@@ -1,0 +1,94 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+/* Header styling */
+header {
+    background-color: #0d47a1; /* Deep blue header */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: #fff; /* White navigation links */
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+nav ul ul {
+    display: none; /* Hide submenus by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0d47a1; /* Deep blue submenu */
+}
+
+nav ul ul li {
+    float: none;
+    width: 200px;
+    text-align: left;
+}
+
+nav ul li:hover > ul {
+    display: block; /* Show submenu on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 1rem;
+}
+
+section {
+    background-color: #fff; /* White sections */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+section h2 {
+    color: #0d47a1; /* Deep blue section headings */
+    margin-bottom: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0d47a1; /* Deep blue footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Links styling */
+a {
+    color: #0d47a1; /* Deep blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
